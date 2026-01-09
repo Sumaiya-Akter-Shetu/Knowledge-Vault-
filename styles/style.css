@@ -112,13 +112,15 @@ nav a:hover {
 
 /* notes section */
 .notes-content {
+  margin:0px 100px;
   padding: 80px 20px;
   text-align: center;
 }
 
 .sub {
   margin: 15px 0 50px;
-  color: #555;
+  color: #627382;
+  font-size: 14px;
 }
 
 .cards {
@@ -131,12 +133,15 @@ nav a:hover {
   background: #fff;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 10px 25px rgba(0,0,0,.06);
+  box-shadow: 0 10px 25px rgba(0,0,0,.15);
 }
 
-.icon {
-  font-size: 30px;
+.red {
+  background-color: rgba(249, 85, 85, 1); ;
+   font-size: 30px;
   margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 25px;
 }
 
 /* Second brain container */
@@ -153,32 +158,6 @@ nav a:hover {
   align-items: center;
   flex-wrap: wrap;
 }
-
-.diagram {
-  position: relative;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  border: 2px dashed #cfd8dc;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.diagram .center {
-  font-size: 50px;
-}
-
-.diagram span {
-  position: absolute;
-  font-size: 24px;
-}
-
-.diagram span:nth-child(2) { top: -10px; }
-.diagram span:nth-child(3) { right: -10px; }
-.diagram span:nth-child(4) { bottom: -10px; }
-.diagram span:nth-child(5) { left: -10px; }
-.diagram span:nth-child(6) { top: 50%; left: -30px; }
 
 .solution ul {
   margin-top: 20px;
